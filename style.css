@@ -1,10 +1,10 @@
-/* Most of your styles should come from Bootstrap classes, adding styles to this class should be unnecessary */
+/* 
+  Nearly all of your styles should come from Bootstrap classes
+  Adding styles to this class should be unnecessary so,
+  the CSS stylesheet has been unlinked.
+  If you would like to style manually, you will have to add this back yourself
+  using a <style> tag. (Not recommended)
+*/
 body {
   font-family: helvetica, arial, sans-serif;
-  margin: 2em;
-}
-
-h1 {
-  font-style: italic;
-  color: #373fff;
 }
