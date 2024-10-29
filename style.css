@@ -8,3 +8,12 @@
 body {
   font-family: helvetica, arial, sans-serif;
 }
+
+.jumbotron {
+  margin-bottom: 0;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

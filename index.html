@@ -11,6 +11,7 @@
       integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="./style.css" />
     <title>Adhoc</title>
   </head>
 
@@ -60,6 +61,7 @@
 
     <!-- Jumbotron -->
     <div
+      class="jumbotron d-flex justify-content-center align-items-center py-3 px-0"
       id="this-is-the-jumbotron-div"
       style="
         background-image: url(https://s3.amazonaws.com/codecademy-content/courses/learn-bootstrap-4/adhoc/jumbotron.png);
@@ -67,7 +69,14 @@
         background-size: cover;
         min-height: 100px;
       "
-    ></div>
+    >
+      <div class="d-inline bg-secondary text-white w-100 pt-2 pb-0 text-center">
+        <h1 class="display-3">Administration made easy</h1>
+        <p class="lead mb-0">
+          Adhoc is an on-demand adminstrative service for your company growth
+        </p>
+      </div>
+    </div>
 
     <!-- Container -->
     <div class="container">
@@ -125,9 +134,9 @@
             <div class="carousel-inner">
               <div class="carousel-item active">
                 <img
-                  src="https://via.placeholder.com/500x250.png?text=Replace+Me"
+                  src="./assets/brian.png"
                   class="d-block w-100"
-                  alt="Placeholder..."
+                  alt="Brian's picture"
                 />
               </div>
             </div>
